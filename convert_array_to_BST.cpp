@@ -61,7 +61,7 @@ int main()
 
     int a[n];
 
-    for (int i = 0; i < n; n--)
+    for (int i = 0; i < n; i++)
         cin >> a[i];
 
     Node *root = convert_array_into_BST(a, n, 0, n - 1);
